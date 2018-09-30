@@ -1,4 +1,4 @@
-import SELECT_SUBREDDIT from './actions';
+import SELECT_SUBREDDIT from '../actions';
 
 const selectSubreddit = (state = 'reactjs', action) => {
   switch (action.type) {
